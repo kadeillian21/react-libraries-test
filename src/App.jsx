@@ -7,7 +7,9 @@ function App() {
 
   return (
     <div>
-      <h1>Hi</h1>
+      <Map height={2000} defaultCenter={[50, 879, 4.6997]} defaultZoom={11}>
+        <Marker width={300} anchor={[50.879, 4.6996]} />
+      </Map>
     </div>
   );
 }
